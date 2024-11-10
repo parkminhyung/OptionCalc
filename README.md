@@ -17,7 +17,7 @@ This shiny dashboard is used for simple option calculations and strategy buildin
 - The theoretical prices and GREEKS of the options are calculated using **the Black-Scholes Merton model**. Many real market data and sites were consulted for the calculation, but the calculated values may differ slightly. We plan to improve this part gradually in the future.
 - There are many ways to calculate the BEP for options strategies. However, to account for the possibility of users entering incorrect parameter values, we have calculated the BEP using the point at which the P/L value goes to zero, rather than the traditional calculation method. While this may result in a slight discrepancy, it should not be noticeable to the user.
 - We have found a few minor errors in the calculator, which are not significant enough to inconvenience you, and we will improve them over time.
-- The DTE is normally calculated automatically but will be blank on the day of option expiry. We plan to replace this value with another number in the future. The DTE and other parameter values can be modified by the user. In this case, the option value will be calculated automatically by applying the modified parameters.
+- The DTE is normally calculated automatically but will be blank on the day of option expiry. We plan to replace it with another number in the future. The DTE and other parameter values can be modified by the user. In this case, the option value will be calculated automatically by applying the modified parameters.
 - The **risk-free rate** is based on the US 10-year Treasury yield. This is a widely used risk-free rate value in finance field, and we will replace it in the future when we find a more convincing value.
 <br><br>
 
