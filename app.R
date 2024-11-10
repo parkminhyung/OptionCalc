@@ -316,7 +316,6 @@ ui <- dashboardPage(
 
 
 # Setting pyton path
-Sys.setenv(RETICULATE_PYTHON = "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3")
 options(scipen = 999)
 
 py_run_string("
