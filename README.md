@@ -14,7 +14,10 @@ This shiny dashboard is a simple option calculator and strategy.
 - **Option DATA :** The option data is obtained using the **yfinance** package in Python via **reticulate** package
 - **Plot Package** : The plot is created using the **Plotly** package.
 - This shinydashboard is a **beta version**. In the future, we plan to improve the calculation of options and greeks and add strategies. We also plan to add an option chain table
-- The theoretical prices and GREEKS of the options are calculated using the Black-Scholes Merton model. Many real market data and sites were consulted for the calculation, and the calculated values may differ slightly. We plan to improve this part gradually in the future.
+- The theoretical prices and GREEKS of the options are calculated using **the Black-Scholes Merton model**. Many real market data and sites were consulted for the calculation, and the calculated values may differ slightly. We plan to improve this part gradually in the future.
+- There is a way to calculate the BEP for many options strategies. However, to account for the possibility of users entering incorrect parameter values, we have calculated the BEP using the point at which the P/L value goes to zero, rather than the traditional calculation method. While this may result in a slight discrepancy, it should not be noticeable to the user.
+- We have found a few minor errors in the calculator, which are not significant enough to inconvenience you, and we will improve them over time.
+- The DTE field is normally calculated automatically but will be blank on the day of option expiry. We plan to replace this field with another number in the future. The DTE and other parameter values can be modified by the user. In this case, the option value will be calculated automatically by applying the modified parameters.
 
 Run APPs via Rstudio or other IDEs
 --
