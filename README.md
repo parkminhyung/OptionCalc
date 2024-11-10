@@ -19,7 +19,7 @@ Run APPs via Rstudio or other IDEs
 ```
 #install.packages(c('shiny','pacman'))
 library(shiny)
-runGitHub("OptionCalc","parkminhyung",ref="main")
+runGitHub("OptionCalc","parkminhyung")
 ```
 
 Guide
