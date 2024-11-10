@@ -9,7 +9,7 @@ Fixed issues [10,Nov 2024]
 
 Overview
 --
-This shiny dashboard is a simple option calculator and strategy. 
+This shiny dashboard is used for simple option calculations and strategy building.
 
 - **Option DATA :** The option data is obtained using the **yfinance** package in Python via **reticulate** package
 - **Plot Package** : The plot is created using the **Plotly** package.
