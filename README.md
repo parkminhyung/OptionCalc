@@ -19,6 +19,8 @@ This shiny dashboard is used for simple option calculations and strategy buildin
 - We have found a few minor errors in the calculator, which are not significant enough to inconvenience you, and we will improve them over time.
 - The DTE field is normally calculated automatically but will be blank on the day of option expiry. We plan to replace this field with another number in the future. The DTE and other parameter values can be modified by the user. In this case, the option value will be calculated automatically by applying the modified parameters.
 - The **risk-free rate** is based on the US 10-year Treasury yield. This is a widely used risk-free rate value in finance field, and we will replace it in the future when we find a more convincing value.
+<br><br>
+
 
 Run APPs via Rstudio or other IDEs
 --
@@ -27,6 +29,7 @@ Run APPs via Rstudio or other IDEs
 library(shiny)
 runGitHub("OptionCalc","parkminhyung")
 ```
+<br><br>
 
 Guide
 --
@@ -54,6 +57,8 @@ Guide
 7. With the Plotly package, you can zoom in on the plot by dragging. To reset the plot to its original view, simply double-click on it. <br><br>
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/03c6d182-8f5b-438a-9291-666e24078bdd">
 
+<br><br>
+
 Available Strategies
 --
 - [Long / Short] Call
@@ -75,6 +80,7 @@ Available Strategies
 - [Long / Short] Put Condor
 
 <br><br>
+
 
 Contact
 --
