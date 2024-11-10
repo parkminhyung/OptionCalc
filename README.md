@@ -1,7 +1,7 @@
 # Option Calculator and Strategy
 <br>
 
-Fixed issues [10,Nov,2024]
+Fixed issues [10,Nov 2024]
 --
 - If you have downloaded this shiny app before, please remove previous version of shiny app and re-run the code below
 - Fixed few packages to be installed automatically to run Shiny apps
