@@ -12,6 +12,7 @@ This shiny dashboard is a simple option calculator and strategy.
 Run APPs via Rstudio or other IDEs
 --
 ```
+#install.packages(c('shiny','pacman'))
 library(shiny)
 runGitHub("OptionCalc","parkminhyung",ref="main")
 ```
