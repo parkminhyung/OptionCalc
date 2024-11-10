@@ -14,6 +14,7 @@ This shiny dashboard is a simple option calculator and strategy.
 - **Option DATA :** The option data is obtained using the **yfinance** package in Python via **reticulate** package
 - **Plot Package** : The plot is created using the **Plotly** package.
 - This shinydashboard is a **beta version**. In the future, we plan to improve the calculation of options and greeks and add strategies. We also plan to add an option chain table
+- The theoretical prices and GREEKS of the options are calculated using the Black-Scholes Merton model. Many real market data and sites were consulted for the calculation, and the calculated values may differ slightly. We plan to improve this part gradually in the future.
 
 Run APPs via Rstudio or other IDEs
 --
