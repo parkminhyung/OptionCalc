@@ -3,6 +3,7 @@
 
 Fixed issues
 --
+- If you downloaded this shiny app previously, please remove app you downloaded and re-run code below. 
 - Fixed few packages to be installed automatically to run Shiny apps
 - Fixed some Python code 
 
