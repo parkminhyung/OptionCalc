@@ -1,6 +1,11 @@
 # Option Calculator and Strategy
 <br>
 
+Fixed issues
+--
+- Fixed few packages to be installed automatically to run Shiny apps
+- Fixed some Python code 
+
 Overview
 --
 This shiny dashboard is a simple option calculator and strategy. 
