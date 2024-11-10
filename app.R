@@ -312,7 +312,7 @@ ui <- dashboardPage(
   skin = "purple"
 )
 
-
+py_install(c('yfinance','datetime','pandas','numpy'))
 
 
 # Setting pyton path
