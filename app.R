@@ -3,13 +3,10 @@
 required_packages <- c(
   "shiny",
   "shinydashboard",
-  "shinythemes",
   "reticulate",
   "dplyr",
   "tibble",
   "shinycssloaders",
-  "ggplot2",
-  "pacman",
   "plotly",
   "purrr"
 )
