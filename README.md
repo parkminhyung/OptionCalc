@@ -3,7 +3,7 @@
 
 Fixed issues [10,Nov 2024]
 --
-- If you have downloaded this shiny app before, please remove previous version of shiny app and re-run the code below
+- If you have downloaded this shiny app before, please remove previous version of this app(OptionCalc) and re-run the code below
 - Fixed few packages to be installed automatically to run Shiny apps
 - Fixed some Python code 
 
